@@ -1,13 +1,14 @@
 ---
 layout: default
-title: "Posts"
+title: "Blog Posts"
 ---
 
-# Posts
+# Blog Posts
+
 <ul>
   {% for post in site.posts %}
   <li>
-    <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%Y-%m-%d" }}</a>
+    {{ post.date | date: "%Y-%m-%d" }} - <a href="{{ post.url }}">{{ post.title }}</a>
   </li>
   {% endfor %}
 </ul>
