@@ -1,2 +1,2 @@
 future: true
-permalink: /posts/:year/:month/:day/:title/
+permalink: /posts/:title/
